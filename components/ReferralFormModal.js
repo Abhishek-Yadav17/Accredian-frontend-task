@@ -7,7 +7,7 @@ const ReferralFormModal = ({ open, onClose }) => {
 
   const onSubmit = async (data) => {
     try {
-      const response = await fetch('/api/referrals', {
+      const response = await fetch('api/referrals', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
