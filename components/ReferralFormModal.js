@@ -23,7 +23,7 @@ const ReferralFormModal = ({ open, onClose }) => {
       }
     } catch (error) {
       console.error('Error submitting referral:', error);
-      alert('An error occurred' +error.message);
+      alert('An error occurred' + error.message);
     }
   };
   
