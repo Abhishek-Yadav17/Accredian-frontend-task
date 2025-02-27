@@ -63,7 +63,7 @@ const HeroSection = ({ onOpenModal }) => {
         </Box>
         <Box sx={{ height: '420px', width: '900px', bgcolor: '#EEF5FF', mt: 4, borderRadius: '29px', boxShadow: '1px 1px 49px -17px rgba(0,0,0,0.75)', display: 'flex', justifyContent: 'space-between', position: 'relative', overflow: 'hidden' }}>
           <Box sx={{ textAlign: 'left', padding: 4, alignSelf: 'center', display: 'flex', flexDirection: 'column', gap: 3, zIndex: '999' }}>
-            <Typography sx={{ fontSize: '3vw', lineHeight: '3vw', fontWeight: 'bold' }}>Let's Learn <br />& Earn</Typography>
+            <Typography sx={{ fontSize: '3vw', lineHeight: '3vw', fontWeight: 'bold' }}>Let&apos;s Learn <br />& Earn</Typography>
             <Typography sx={{ fontSize: '1.6vw', lineHeight: '2vw' }}>Get a chance to win <br /> up-to <span style={{ fontSize: '2vw', fontWeight: 'bold', color: '#1A73E8' }}>Rs 15,000</span></Typography>
             <Button sx={{ bgcolor: '#1A73E8', color: 'white', textTransform: 'capitalize', width: '50%' }} onClick={onOpenModal}>Refer Now</Button>
           </Box>
