@@ -7,7 +7,7 @@ const ReferralFormModal = ({ open, onClose }) => {
 
   const onSubmit = async (data) => {
     try {
-      const response = await fetch('api/referrals', {
+      const response = await fetch('https://accredian-backend-task-tr3y.onrender.com/api/referrals', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
